@@ -13,7 +13,7 @@ int main ()
     menu();
     return (0);
 }
-void menu()
+void menu(void)
 {
     printf("1 - Frames to Seconds\n2 - Seconds to Frames\n3 - About\n4 - Exit\n=====================\n");
     printf("Select: ");
